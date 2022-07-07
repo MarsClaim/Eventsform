@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="basicform.js"></script>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input size="30" placeholder="Name" name="Name" id="name" type="text"/><br/><br/> 
+        <label for="Lastname">Lastname</label>
+        <input size="30" placeholder="Lastname" name="Lastname" id="Lastname" type="text"/><br/><br/>
+        <label for="city">City</label>  
+        <input size="20" placeholder="Town or city" name="City" type="text"></input><br/><br/>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <p id="demo" onclick="myFunction()">Click me.</p>
+        <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Your data's been saved";
+        }
+        </script>
+    </form>
+    
+</body>
+</html>
